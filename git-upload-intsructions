@@ -1,0 +1,18 @@
+
+first time when you link github repo
+git init
+git add .
+git commit -m "your commit"
+git branch -M main
+git remote add origin <github repo link>
+git push -u origin main
+error
+git branch -M master
+git remote add origin <github repo link>
+git push -u origin master
+
+same file changes 
+
+git add .
+git commit -m "your commit"
+git push -u origin master
